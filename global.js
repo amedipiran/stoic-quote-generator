@@ -25,7 +25,7 @@ soundBtn.addEventListener('click', () => {
 });
 
 copyBtn.addEventListener('click', () => {
-    navigator.clipboard.writeText(quoteText.innerText);
+    navigator.clipboard.writeText(quoteText.innerText + ' By ' + '-' + authorName.innerText);
 });
 
 twitterBtn.addEventListener('click', () => {
