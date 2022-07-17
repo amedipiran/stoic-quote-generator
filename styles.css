@@ -144,3 +144,24 @@ html {
 
 }
 
+
+
+@media screen and (max-width:780px) {
+    .wrapper {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    body {
+        max-width: 568px;
+    }
+
+    .wrapper {
+        width: 300px;
+    } 
+
+    .wrapper ul li {
+        margin: 6px;
+    }
+}
